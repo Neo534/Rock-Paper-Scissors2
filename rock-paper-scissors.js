@@ -42,13 +42,13 @@ function playRound() {
   }
   
   function game() {
-    while (myScore < 5 && compScore < 5) {
+    while (myScore < 3 && compScore < 3) {
         playRound();
     }
-    if (myScore ==5) {
+    if (myScore ==3) {
         alert("Way to Go!!!")
     }
-    else if (compScore == 5) {
+    else if (compScore == 3) {
         alert("Better luck next time.")
     }
   }
