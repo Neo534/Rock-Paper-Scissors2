@@ -1,0 +1,17 @@
+#results{background:LightSkyBlue;}
+  #computer{background:LightSalmon;}
+  #myScore{background:PaleTurquoise;}
+  #compScore{background:LightPink;}
+  #playAgain{background:PaleGreen;}
+  #replay{background:rgb(87, 97, 155);}
+  #quit{background:rgb(148, 185, 153);}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+background-color: rgb(171, 159, 240);
+}
+body {
+    background-color:aqua;
+}
